@@ -1,0 +1,9 @@
+# Path
+#export PATH=/usr/local/sbin:/opt/homebrew/bin:$PATH
+
+# Editor
+export EDITOR=code
+
+# Language
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8

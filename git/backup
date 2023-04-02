@@ -1,0 +1,30 @@
+[pull]
+	rebase = true
+[core]
+	excludesfile = /Users/carlos.silva/.gitignore
+[commit]
+	gpgSign = true
+	template = /Users/carlos.silva/.gitmessage.txt
+[gui]
+	pruneduringfetch = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
+[push]
+	recurseSubmodules = on-demand
+[user]
+	email = carlos.silva@tridonic.com
+	name = Carlos Silva
+[includeIf "gitdir:~/myspace/"]
+    path = ~/myspace/.gitconfig
+[init]
+	defaultBranch = main
+[credential]
+	helper = osxkeychain
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[tag]
+	gpgSign = true
