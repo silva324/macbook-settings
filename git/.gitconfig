@@ -12,9 +12,8 @@
 	initializenew = true
 [push]
 	recurseSubmodules = on-demand
-[user]
-	email = carlos.silva@tridonic.com
-	name = Carlos Silva
+[includeIf "gitdir:~/workspace/"]
+    path = ~/workspace/.gitconfig
 [includeIf "gitdir:~/myspace/"]
     path = ~/myspace/.gitconfig
 [init]
