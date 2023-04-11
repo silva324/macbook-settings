@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+brew "colima"
+brew "docker"
 brew "exa"
 brew "macchina"
 brew "wget"
