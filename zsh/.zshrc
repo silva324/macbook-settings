@@ -146,3 +146,6 @@ if [ -f $HOME/.private ]; then
 fi
 
 #============================================================================
+
+# >>>>>> Software Specific <<<<<<<
+source $(brew --prefix nvm)/nvm.sh
